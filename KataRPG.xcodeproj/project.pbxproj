@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D0C1C05238D868E000D73E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C1C04238D868E000D73E0 /* AppDelegate.swift */; };
+		6D0C1C07238D868E000D73E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C1C06238D868E000D73E0 /* ViewController.swift */; };
+		6D0C1C0A238D868E000D73E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C1C08238D868E000D73E0 /* Main.storyboard */; };
+		6D0C1C0C238D8691000D73E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C1C0B238D8691000D73E0 /* Assets.xcassets */; };
+		6D0C1C0F238D8691000D73E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D0C1C0D238D8691000D73E0 /* LaunchScreen.storyboard */; };
+		6D0C1C1A238D8691000D73E0 /* KataRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C1C19238D8691000D73E0 /* KataRPGTests.swift */; };
+		6D0C1C26238D880C000D73E0 /* CharRPG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C1C25238D880C000D73E0 /* CharRPG.swift */; };
+		6D0C1C28238D9AB0000D73E0 /* CharAttack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0C1C27238D9AB0000D73E0 /* CharAttack.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D0C1C16238D8691000D73E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D0C1BF9238D868E000D73E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D0C1C00238D868E000D73E0;
+			remoteInfo = KataRPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D0C1C01238D868E000D73E0 /* KataRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KataRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0C1C04238D868E000D73E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D0C1C06238D868E000D73E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D0C1C09238D868E000D73E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D0C1C0B238D8691000D73E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D0C1C0E238D8691000D73E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D0C1C10238D8691000D73E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0C1C15238D8691000D73E0 /* KataRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KataRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0C1C19238D8691000D73E0 /* KataRPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KataRPGTests.swift; sourceTree = "<group>"; };
+		6D0C1C1B238D8691000D73E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0C1C25238D880C000D73E0 /* CharRPG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharRPG.swift; sourceTree = "<group>"; };
+		6D0C1C27238D9AB0000D73E0 /* CharAttack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharAttack.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D0C1BFE238D868E000D73E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0C1C12238D8691000D73E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D0C1BF8238D868E000D73E0 = {
+			isa = PBXGroup;
+			children = (
+				6D0C1C03238D868E000D73E0 /* KataRPG */,
+				6D0C1C18238D8691000D73E0 /* KataRPGTests */,
+				6D0C1C02238D868E000D73E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D0C1C02238D868E000D73E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C1C01238D868E000D73E0 /* KataRPG.app */,
+				6D0C1C15238D8691000D73E0 /* KataRPGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D0C1C03238D868E000D73E0 /* KataRPG */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C1C24238D87FB000D73E0 /* Model */,
+				6D0C1C04238D868E000D73E0 /* AppDelegate.swift */,
+				6D0C1C06238D868E000D73E0 /* ViewController.swift */,
+				6D0C1C08238D868E000D73E0 /* Main.storyboard */,
+				6D0C1C0B238D8691000D73E0 /* Assets.xcassets */,
+				6D0C1C0D238D8691000D73E0 /* LaunchScreen.storyboard */,
+				6D0C1C10238D8691000D73E0 /* Info.plist */,
+			);
+			path = KataRPG;
+			sourceTree = "<group>";
+		};
+		6D0C1C18238D8691000D73E0 /* KataRPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C1C19238D8691000D73E0 /* KataRPGTests.swift */,
+				6D0C1C1B238D8691000D73E0 /* Info.plist */,
+			);
+			path = KataRPGTests;
+			sourceTree = "<group>";
+		};
+		6D0C1C24238D87FB000D73E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C1C25238D880C000D73E0 /* CharRPG.swift */,
+				6D0C1C27238D9AB0000D73E0 /* CharAttack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D0C1C00238D868E000D73E0 /* KataRPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0C1C1E238D8691000D73E0 /* Build configuration list for PBXNativeTarget "KataRPG" */;
+			buildPhases = (
+				6D0C1BFD238D868E000D73E0 /* Sources */,
+				6D0C1BFE238D868E000D73E0 /* Frameworks */,
+				6D0C1BFF238D868E000D73E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KataRPG;
+			productName = KataRPG;
+			productReference = 6D0C1C01238D868E000D73E0 /* KataRPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D0C1C14238D8691000D73E0 /* KataRPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D0C1C21238D8691000D73E0 /* Build configuration list for PBXNativeTarget "KataRPGTests" */;
+			buildPhases = (
+				6D0C1C11238D8691000D73E0 /* Sources */,
+				6D0C1C12238D8691000D73E0 /* Frameworks */,
+				6D0C1C13238D8691000D73E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D0C1C17238D8691000D73E0 /* PBXTargetDependency */,
+			);
+			name = KataRPGTests;
+			productName = KataRPGTests;
+			productReference = 6D0C1C15238D8691000D73E0 /* KataRPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D0C1BF9238D868E000D73E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = PedidosYa;
+				TargetAttributes = {
+					6D0C1C00238D868E000D73E0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					6D0C1C14238D8691000D73E0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6D0C1C00238D868E000D73E0;
+					};
+				};
+			};
+			buildConfigurationList = 6D0C1BFC238D868E000D73E0 /* Build configuration list for PBXProject "KataRPG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D0C1BF8238D868E000D73E0;
+			productRefGroup = 6D0C1C02238D868E000D73E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D0C1C00238D868E000D73E0 /* KataRPG */,
+				6D0C1C14238D8691000D73E0 /* KataRPGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D0C1BFF238D868E000D73E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0C1C0F238D8691000D73E0 /* LaunchScreen.storyboard in Resources */,
+				6D0C1C0C238D8691000D73E0 /* Assets.xcassets in Resources */,
+				6D0C1C0A238D868E000D73E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0C1C13238D8691000D73E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D0C1BFD238D868E000D73E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0C1C07238D868E000D73E0 /* ViewController.swift in Sources */,
+				6D0C1C28238D9AB0000D73E0 /* CharAttack.swift in Sources */,
+				6D0C1C26238D880C000D73E0 /* CharRPG.swift in Sources */,
+				6D0C1C05238D868E000D73E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D0C1C11238D8691000D73E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D0C1C1A238D8691000D73E0 /* KataRPGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D0C1C17238D8691000D73E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D0C1C00238D868E000D73E0 /* KataRPG */;
+			targetProxy = 6D0C1C16238D8691000D73E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D0C1C08238D868E000D73E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0C1C09238D868E000D73E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D0C1C0D238D8691000D73E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D0C1C0E238D8691000D73E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D0C1C1C238D8691000D73E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6D0C1C1D238D8691000D73E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D0C1C1F238D8691000D73E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedidosya.KataRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D0C1C20238D8691000D73E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedidosya.KataRPG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D0C1C22238D8691000D73E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataRPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedidosya.KataRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataRPG.app/KataRPG";
+			};
+			name = Debug;
+		};
+		6D0C1C23238D8691000D73E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KataRPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedidosya.KataRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KataRPG.app/KataRPG";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D0C1BFC238D868E000D73E0 /* Build configuration list for PBXProject "KataRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0C1C1C238D8691000D73E0 /* Debug */,
+				6D0C1C1D238D8691000D73E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0C1C1E238D8691000D73E0 /* Build configuration list for PBXNativeTarget "KataRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0C1C1F238D8691000D73E0 /* Debug */,
+				6D0C1C20238D8691000D73E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D0C1C21238D8691000D73E0 /* Build configuration list for PBXNativeTarget "KataRPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0C1C22238D8691000D73E0 /* Debug */,
+				6D0C1C23238D8691000D73E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D0C1BF9238D868E000D73E0 /* Project object */;
+}
